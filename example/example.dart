@@ -1,5 +1,3 @@
-// @dart=2.9
-
 import 'package:flutter/material.dart';
 
 import '../lib/tcard.dart';
@@ -73,8 +71,7 @@ class _TCardPageState extends State<TCardPage> {
                         ),
                         child: Text(
                           '${index2 + 1}',
-                          style:
-                              TextStyle(fontSize: 100.0, color: Colors.white),
+                          style: TextStyle(fontSize: 100.0, color: Colors.white),
                         ),
                       );
                     },
@@ -100,24 +97,24 @@ class _TCardPageState extends State<TCardPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
-                OutlineButton(
-                  onPressed: () {
-                    _controller.back();
-                  },
-                  child: Text('Back'),
-                ),
-                OutlineButton(
-                  onPressed: () {
-                    _controller.forward();
-                  },
-                  child: Text('Forward'),
-                ),
-                OutlineButton(
-                  onPressed: () {
-                    _controller.reset();
-                  },
-                  child: Text('Reset'),
-                ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.back();
+                //   },
+                //   child: Text('Back'),
+                // ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.forward();
+                //   },
+                //   child: Text('Forward'),
+                // ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.reset();
+                //   },
+                //   child: Text('Reset'),
+                // ),
                 ElevatedButton(
                   onPressed: () {
                     // you can add more cards

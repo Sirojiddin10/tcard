@@ -1,5 +1,3 @@
-// @dart=2.9
-
 import 'package:flutter/material.dart';
 import 'package:tcard/tcard.dart';
 
@@ -75,24 +73,24 @@ class _TCardPageState extends State<TCardPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
-                OutlineButton(
-                  onPressed: () {
-                    _controller.back();
-                  },
-                  child: Text('Back'),
-                ),
-                OutlineButton(
-                  onPressed: () {
-                    _controller.forward();
-                  },
-                  child: Text('Forward'),
-                ),
-                OutlineButton(
-                  onPressed: () {
-                    _controller.reset();
-                  },
-                  child: Text('Reset'),
-                ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.back();
+                //   },
+                //   child: Text('Back'),
+                // ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.forward();
+                //   },
+                //   child: Text('Forward'),
+                // ),
+                // OutlineButton(
+                //   onPressed: () {
+                //     _controller.reset();
+                //   },
+                //   child: Text('Reset'),
+                // ),
               ],
             ),
           ],
